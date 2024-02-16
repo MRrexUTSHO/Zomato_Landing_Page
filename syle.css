@@ -568,6 +568,22 @@
 }
 
 
+@media only screen and (max-width: 900px) 
+{
+        .navigation_container
+        {
+            grid-template-columns: repeat(3,1fr);
+        }
+        .link_containers h5
+        {
+            font-size: 300;
+            font-weight: 800;
+        }
+
+}
+
+
+
 
 
 
